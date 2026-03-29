@@ -35,7 +35,6 @@ Pour lancer ce projet sur votre machine locale, suivez ces étapes :
     npm install
     Lancer le serveur de développement :
     
-    ```bash
     npm start
     L'application s'ouvrira automatiquement dans votre navigateur à l'adresse http://localhost:3000.
 
