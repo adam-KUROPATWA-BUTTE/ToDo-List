@@ -33,10 +33,13 @@ Pour lancer ce projet sur votre machine locale, suivez ces étapes :
 2. Installer les dépendances :
     ```bash
     npm install
-    Lancer le serveur de développement :
+
+3. Lancer le serveur de développement :
     
+    ```bash
     npm start
-    L'application s'ouvrira automatiquement dans votre navigateur à l'adresse http://localhost:3000.
+    
+L'application s'ouvrira automatiquement dans votre navigateur à l'adresse http://localhost:3000.
 
 ## 📂 Architecture du Projet
 Le code source est organisé de manière modulaire pour faciliter la maintenance :
