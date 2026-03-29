@@ -1,0 +1,21 @@
+.task-form { display: flex; flex-direction: column; gap: 15px; }
+.form-error {
+    background-color: #ffebee; color: #c62828; padding: 10px;
+    border-radius: 4px; font-size: 14px; border: 1px solid #ffcdd2;
+}
+.form-group { display: flex; flex-direction: column; gap: 5px; }
+.form-group label { font-size: 14px; font-weight: bold; color: #333; }
+.form-group input, .form-group select, .form-group textarea {
+    padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;
+}
+.form-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px; }
+.btn-cancel {
+    padding: 8px 15px; background: #f1f3f5; border: 1px solid #ccc;
+    border-radius: 4px; cursor: pointer;
+}
+.btn-submit {
+    padding: 8px 15px; background: #007bff; color: white;
+    border: none; border-radius: 4px; cursor: pointer;
+}
+.btn-submit:hover { background: #0056b3; }
+.btn-cancel:hover { background: #e2e6ea; }

@@ -1,0 +1,38 @@
+.task-item {
+    background: white; border: 1px solid #e1e4e8; border-radius: 8px;
+    margin-bottom: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+}
+.task-item.expanded { border-color: #babbbc; box-shadow: 0 3px 6px rgba(0,0,0,0.1); }
+.task-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 15px; cursor: pointer;
+}
+.task-header:hover { background-color: #fcfcfc; }
+.expand-icon { font-size: 12px; color: #888; width: 20px; display: inline-block; }
+.task-main-info { display: flex; align-items: center; gap: 15px; }
+.task-main-info h3 { margin: 0; font-size: 16px; color: #333; }
+.task-date { font-size: 13px; color: #666; }
+.task-status { font-size: 12px; padding: 4px 8px; border-radius: 12px; background: #eee; }
+.folder-badge {
+    font-size: 11px; padding: 4px 8px; border-radius: 4px;
+    color: white; margin-left: 5px; display: inline-flex;
+    align-items: center; gap: 4px;
+}
+.extra-folders { background-color: #6c757d !important; }
+.task-details { padding: 0 15px 15px 15px; animation: fadeIn 0.3s ease-in-out; }
+.task-details hr { border: 0; border-top: 1px solid #eee; margin-bottom: 15px; }
+.task-description { font-size: 14px; color: #444; margin-bottom: 10px; }
+.task-description p { margin: 5px 0 0 0; line-height: 1.4; }
+.empty-text { font-style: italic; color: #999; }
+.task-team { font-size: 13px; color: #666; margin-bottom: 15px; }
+.task-actions { display: flex; justify-content: flex-end; }
+.edit-btn {
+    background-color: #f0f0f0; border: 1px solid #ccc;
+    padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 13px;
+}
+.edit-btn:hover { background-color: #e4e4e4; }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
