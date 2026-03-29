@@ -14,12 +14,6 @@ Une application de gestion de tâches (ToDo-List) riche en fonctionnalités, dé
   * Option pour masquer les tâches échues depuis plus d'une semaine.
 * **Catégorisation :** Association des tâches à différents dossiers (catégories) avec gestion des couleurs et icônes.
 
-## 🛠️ Technologies Utilisées
-
-* **React.js** (Utilisation avancée des Hooks : `useState`, `useMemo`)
-* **JavaScript (ES6+)**
-* **CSS3** (Flexbox, animations, gradients coniques pour les graphiques)
-* **JSON** (Pour la structure de données initiale)
 
 ## 🚀 Installation et Démarrage
 
