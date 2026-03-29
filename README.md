@@ -53,5 +53,7 @@ src/
     └── Footer/      # Bouton d'ajout
 
 
+CSS GENERER PAR IA CAR CELA ME PARRAISSAIT MOINS IMPORTANT QUE LE CODE
+
 
 Ce README a été généré avec l'aide d'une IA.
